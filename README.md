@@ -26,7 +26,7 @@ This repository contains code for predicting bike sharing demand in Seoul using 
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/your_username/seoul-bike-sharing-prediction.git`
+1. Clone the repository: `git clone https://github.com/shivam-nath-10003/seoul-bike-sharing-prediction.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the Jupyter notebook or Python scripts to explore the dataset, preprocess the data, build regression models, and evaluate their performance.
 
