@@ -1,4 +1,4 @@
-# Seoul Bike Sharing Demand Prediction
+# Seoul Bike Sharing Demand Prediction 🚲
 
 This repository contains code for predicting bike sharing demand in Seoul using regression analysis techniques. The dataset includes weather information such as temperature, humidity, wind speed, visibility, dew point temperature, solar radiation, snowfall, rainfall, as well as date and time information. The goal is to develop models that accurately predict the number of bikes rented per hour based on these factors.
 
