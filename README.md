@@ -9,6 +9,7 @@ This repository contains code for predicting bike sharing demand in Seoul using 
 - **Traditional Regression**: Simple and multiple linear regression models are implemented using scikit-learn to predict bike rental counts.
 - **Neural Network Regression**: TensorFlow is used to build neural network models for regression, including single-node networks and multi-layer networks with various configurations.
 - **Model Evaluation**: Mean Squared Error (MSE) is calculated to evaluate the performance of linear regression and neural network models. Additionally, scatter plots are generated to compare predicted values against true values.
+- **Streamlit Application**: A Streamlit web application is included for interactive prediction of bike sharing demand using both linear regression and neural network models.
 
 ## Dataset Source
 
@@ -23,12 +24,26 @@ This repository contains code for predicting bike sharing demand in Seoul using 
 - imbalanced-learn
 - Seaborn
 - TensorFlow
+- Streamlit
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/shivam-nath-10003/seoul-bike-sharing-prediction.git`
+1. Clone the repository: `git clone https://github.com/your_username/seoul-bike-sharing-prediction.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the Jupyter notebook or Python scripts to explore the dataset, preprocess the data, build regression models, and evaluate their performance.
+4. To run the Streamlit web application:
 
 
+## Streamlit Application
 
+A Streamlit web application is included for interactive prediction of bike sharing demand using both linear regression and neural network models. The application allows users to visualize predictions based on temperature using either model. Simply run the application using the command mentioned above and follow the instructions in your web browser.
+
+The Streamlit application provides:
+- Linear Regression Model: Predictions based on simple linear regression using temperature as the input feature.
+- Neural Network Model: Predictions based on a neural network with a single hidden layer using temperature as the input feature.
+
+Explore the predictions by inputting different temperature values and observing the predicted bike counts visually on interactive plots.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues for bugs, feature requests, or to submit pull requests with enhancements or fixes.
